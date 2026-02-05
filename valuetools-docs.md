@@ -104,9 +104,11 @@ Each tool below includes copy‑paste ready iframe and script blocks.
 ```
 
 **Script (Custom Page Script)**
+
 ``` html
 <script>window.addEventListener("message",(function(e){if("https://value.blueyonder.com"!==e.origin)return;let t;try{t=JSON.parse(e.data)}catch(e){return}if("by-tool-resize"===t.type&&"number"==typeof t.height){const n=document.getElementsByTagName("iframe");for(let r=0;r<n.length;r++)if(n[r].contentWindow===e.source){n[r].style.height=t.height+2+"px";break}}}));</script>
 ```
+
 ------------------------------------------------------------------------
 
 ### 2. Supply Chain (ROI Calculator)
@@ -122,7 +124,7 @@ Each tool below includes copy‑paste ready iframe and script blocks.
 ```
 
 **Script (Custom Page Script)**
-``` html
+``` js
 <script>window.addEventListener("message",(function(e){if("https://value.blueyonder.com"!==e.origin)return;let t;try{t=JSON.parse(e.data)}catch(e){return}if("by-tool-resize"===t.type&&"number"==typeof t.height){const n=document.getElementsByTagName("iframe");for(let r=0;r<n.length;r++)if(n[r].contentWindow===e.source){n[r].style.height=t.height+2+"px";break}}}));</script>
 ```
 ------------------------------------------------------------------------
@@ -180,9 +182,7 @@ Each tool below includes copy‑paste ready iframe and script blocks.
 <script>window.addEventListener("message",(function(e){if("https://value.blueyonder.com"!==e.origin)return;let t;try{t=JSON.parse(e.data)}catch(e){return}if("by-tool-resize"===t.type&&"number"==typeof t.height){const n=document.getElementsByTagName("iframe");for(let r=0;r<n.length;r++)if(n[r].contentWindow===e.source){n[r].style.height=t.height+2+"px";break}}}));</script>
 ```
 ------------------------------------------------------------------------
-
  
-
 ## 🧩 Using in Sitecore
 
 You can embed the same iframe inside:
