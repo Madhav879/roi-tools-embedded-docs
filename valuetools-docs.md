@@ -111,7 +111,7 @@ Each tool below includes copy‑paste ready iframe and script blocks.
 
 ------------------------------------------------------------------------
 
-### 2. Supply Chain (R OI Calculator)
+### 2. Supply Chain (ROI Calculator)
 
 **iframe**
 ``` html
@@ -220,7 +220,5 @@ This helps ensure:
 - alignment with business priorities,  
 - proper resourcing, and  
 - smooth planning for future development.  
-
-------------------------------------------------------------------------
  
  
