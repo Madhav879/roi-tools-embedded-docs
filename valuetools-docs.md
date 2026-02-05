@@ -111,7 +111,7 @@ Each tool below includes copy‑paste ready iframe and script blocks.
 
 ------------------------------------------------------------------------
 
-### 2. Supply Chain (ROI Calculator)
+### 2. Supply Chain (R OI Calculator)
 
 **iframe**
 ``` html
@@ -128,7 +128,9 @@ Each tool below includes copy‑paste ready iframe and script blocks.
 ``` html
 <script>window.addEventListener("message",(function(e){if("https://value.blueyonder.com"!==e.origin)return;let t;try{t=JSON.parse(e.data)}catch(e){return}if("by-tool-resize"===t.type&&"number"==typeof t.height){const n=document.getElementsByTagName("iframe");for(let r=0;r<n.length;r++)if(n[r].contentWindow===e.source){n[r].style.height=t.height+2+"px";break}}}));</script>
 ```
+
 ------------------------------------------------------------------------
+
 
 ### 3. Demand and supply planning (ROI Calculator)
 
@@ -147,6 +149,7 @@ Each tool below includes copy‑paste ready iframe and script blocks.
 ``` html
 <script>window.addEventListener("message",(function(e){if("https://value.blueyonder.com"!==e.origin)return;let t;try{t=JSON.parse(e.data)}catch(e){return}if("by-tool-resize"===t.type&&"number"==typeof t.height){const n=document.getElementsByTagName("iframe");for(let r=0;r<n.length;r++)if(n[r].contentWindow===e.source){n[r].style.height=t.height+2+"px";break}}}));</script>
 ```
+
 ------------------------------------------------------------------------
 
 ### 4. Auto Campaign Checklist
@@ -166,6 +169,7 @@ Each tool below includes copy‑paste ready iframe and script blocks.
 ``` html
 <script>window.addEventListener("message",(function(e){if("https://value.blueyonder.com"!==e.origin)return;let t;try{t=JSON.parse(e.data)}catch(e){return}if("by-tool-resize"===t.type&&"number"==typeof t.height){const n=document.getElementsByTagName("iframe");for(let r=0;r<n.length;r++)if(n[r].contentWindow===e.source){n[r].style.height=t.height+2+"px";break}}}));</script>
 ```
+
 ------------------------------------------------------------------------
 
 ### 5. Business case for sustainability
@@ -185,6 +189,7 @@ Each tool below includes copy‑paste ready iframe and script blocks.
 ``` html
 <script>window.addEventListener("message",(function(e){if("https://value.blueyonder.com"!==e.origin)return;let t;try{t=JSON.parse(e.data)}catch(e){return}if("by-tool-resize"===t.type&&"number"==typeof t.height){const n=document.getElementsByTagName("iframe");for(let r=0;r<n.length;r++)if(n[r].contentWindow===e.source){n[r].style.height=t.height+2+"px";break}}}));</script>
 ```
+
 ------------------------------------------------------------------------
  
 ## 🧩 Using in Sitecore
