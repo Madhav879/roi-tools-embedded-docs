@@ -1,4 +1,4 @@
-# Interactive Tools --- iframe Integration Framework
+# 🧩 Interactive Tools --- iframe Integration Guide
 
 A reusable, cross-platform system for embedding React-based interactive
 tools (ROI calculators, surveys, Q&A flows, and assessments) into
@@ -67,7 +67,7 @@ Paste this into the section where you want the tool to appear.
 
 ``` html
 <iframe 
-  src="https://company.tools.com/roi-calculator" 
+  src="https://value.blueyonder.com/roi-calculator" 
   width="100%" 
   frameborder="0"
   scrolling="no"
@@ -83,7 +83,7 @@ In Marketo Page Editor, click on **Custom Page Script** variable and paste:<br>
 ![Alt text for the image](./assets/imgs/cps-refference.png)
 
 ``` html
-<script src=""></script>
+<script>window.addEventListener("message",(function(e){if("https://value.blueyonder.com"!==e.origin)return;let t;try{t=JSON.parse(e.data)}catch(e){return}if("by-tool-resize"===t.type&&"number"==typeof t.height){const n=document.getElementsByTagName("iframe");for(let r=0;r<n.length;r++)if(n[r].contentWindow===e.source){n[r].style.height=t.height+2+"px";break}}}));</script>
 ```
 
 ------------------------------------------------------------------------
@@ -105,7 +105,7 @@ Each tool below includes copy‑paste ready iframe and script blocks.
 
 **Script (Custom Page Script)**
 ``` html
-<script src=""></script>
+<script>window.addEventListener("message",(function(e){if("https://value.blueyonder.com"!==e.origin)return;let t;try{t=JSON.parse(e.data)}catch(e){return}if("by-tool-resize"===t.type&&"number"==typeof t.height){const n=document.getElementsByTagName("iframe");for(let r=0;r<n.length;r++)if(n[r].contentWindow===e.source){n[r].style.height=t.height+2+"px";break}}}));</script>
 ```
 ------------------------------------------------------------------------
 
@@ -123,7 +123,7 @@ Each tool below includes copy‑paste ready iframe and script blocks.
 
 **Script (Custom Page Script)**
 ``` html
-<script src=""></script>
+<script>window.addEventListener("message",(function(e){if("https://value.blueyonder.com"!==e.origin)return;let t;try{t=JSON.parse(e.data)}catch(e){return}if("by-tool-resize"===t.type&&"number"==typeof t.height){const n=document.getElementsByTagName("iframe");for(let r=0;r<n.length;r++)if(n[r].contentWindow===e.source){n[r].style.height=t.height+2+"px";break}}}));</script>
 ```
 ------------------------------------------------------------------------
 
@@ -141,7 +141,7 @@ Each tool below includes copy‑paste ready iframe and script blocks.
 
 **Script (Custom Page Script)**
 ``` html
-<script src=""></script>
+<script>window.addEventListener("message",(function(e){if("https://value.blueyonder.com"!==e.origin)return;let t;try{t=JSON.parse(e.data)}catch(e){return}if("by-tool-resize"===t.type&&"number"==typeof t.height){const n=document.getElementsByTagName("iframe");for(let r=0;r<n.length;r++)if(n[r].contentWindow===e.source){n[r].style.height=t.height+2+"px";break}}}));</script>
 ```
 ------------------------------------------------------------------------
 
@@ -159,7 +159,7 @@ Each tool below includes copy‑paste ready iframe and script blocks.
 
 **Script (Custom Page Script)**
 ``` html
-<script src=""></script>
+<script>window.addEventListener("message",(function(e){if("https://value.blueyonder.com"!==e.origin)return;let t;try{t=JSON.parse(e.data)}catch(e){return}if("by-tool-resize"===t.type&&"number"==typeof t.height){const n=document.getElementsByTagName("iframe");for(let r=0;r<n.length;r++)if(n[r].contentWindow===e.source){n[r].style.height=t.height+2+"px";break}}}));</script>
 ```
 ------------------------------------------------------------------------
 
@@ -177,66 +177,41 @@ Each tool below includes copy‑paste ready iframe and script blocks.
 
 **Script (Custom Page Script)**
 ``` html
-<script src=""></script>
+<script>window.addEventListener("message",(function(e){if("https://value.blueyonder.com"!==e.origin)return;let t;try{t=JSON.parse(e.data)}catch(e){return}if("by-tool-resize"===t.type&&"number"==typeof t.height){const n=document.getElementsByTagName("iframe");for(let r=0;r<n.length;r++)if(n[r].contentWindow===e.source){n[r].style.height=t.height+2+"px";break}}}));</script>
 ```
 ------------------------------------------------------------------------
 
-<!-- ------------------------------------------------------------------------
-> Important: Each iframe needs a unique ID, and the same ID must be used
-> inside the script.
------------------------------------------------------------------------- -->
+ 
 
 ## 🧩 Using in Sitecore
 
 You can embed the same iframe inside:
 
--   Rich Text field\
--   Custom HTML component\
+-   Rich Text field
+-   Custom HTML component
 -   Page-level script block
-
-No changes are required compared to Marketo.
 
 ------------------------------------------------------------------------
 
 ## ✅ Benefits
 
--   Works everywhere\
--   Centralized maintenance\
--   Faster updates\
--   Consistent UX\
--   Better performance\
--   Easier analytics tracking
+-   Works everywhere
+-   Centralized maintenance
+-   Faster updates
+-   Consistent UX
 
 ------------------------------------------------------------------------
 
-## 🛠️ Troubleshooting
 
-### iframe does not resize
+## 💡 Have your own idea?
 
-Check that:
+If you have a new use case, enhancement request, or an idea for an additional interactive tool, please reach out to the **Project Management team** to raise a Wrike request.  
 
--   iframe ID matches the script\
--   Script is added in **Custom Page Script**\
--   URL is `https://company.tools.com`
-
-### Tool does not load
-
--   Ensure HTTPS\
--   Check cross-origin permissions\
--   Disable ad blockers
+This helps ensure:  
+- alignment with business priorities,  
+- proper resourcing, and  
+- smooth planning for future development.  
 
 ------------------------------------------------------------------------
-
-## 🔮 Roadmap
-
--   Single universal script for all tools\
--   Built-in analytics events\
--   Marketo cookie sync\
--   Progressive profiling support
-
-------------------------------------------------------------------------
-
-## 👥 Maintainers
-
--   **Madhav -- Frontend / Marketo Templates**\
--   **Web Engineering Team -- React & Hosting**
+ 
+ 
