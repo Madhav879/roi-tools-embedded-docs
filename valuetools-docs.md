@@ -27,6 +27,15 @@ This makes them truly reusable across platforms.
 
 ------------------------------------------------------------------------
 
+## ✅ Benefits
+
+-   Works everywhere
+-   Centralized maintenance
+-   Faster updates
+-   Consistent UX
+
+------------------------------------------------------------------------
+
 ## 🏗️ High-Level Architecture
 
     React Tool (hosted on https://value.blueyonder.com/)
@@ -199,15 +208,6 @@ You can embed the same iframe inside:
 -   Rich Text field
 -   Custom HTML component
 -   Page-level script block
-
-------------------------------------------------------------------------
-
-## ✅ Benefits
-
--   Works everywhere
--   Centralized maintenance
--   Faster updates
--   Consistent UX
 
 ------------------------------------------------------------------------
 
